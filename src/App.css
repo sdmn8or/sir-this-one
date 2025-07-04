@@ -1,0 +1,69 @@
+/* Center container and spacing */
+.text-center {
+  margin-top: 80px;
+}
+
+/* Bootstrap Button customization */
+.btn-success {
+  padding: 10px 24px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-success:hover {
+  background-color: #138c5d;
+  transform: scale(1.05);
+}
+
+/* Paragraph style */
+.mt-3 {
+  font-size: 1.1rem;
+  color: #333;
+  background-color: #f4f4f4;
+  padding: 15px 20px;
+  border-radius: 10px;
+  max-width: 500px;
+  margin: 20px auto 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: opacity 0.3s ease-in-out;
+}
+/* Counter container inherits same center and spacing */
+.text-center {
+  margin-top: 50px;
+}
+
+/* Count display */
+h2 {
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: #1bd363;
+  margin-bottom: 30px;
+}
+
+/* Button styles */
+.btn-success,
+.btn-danger {
+  padding: 12px 28px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.btn-success:hover {
+  background-color: #148c57;
+  transform: scale(1.05);
+}
+
+.btn-danger:hover {
+  background-color: #a4161a;
+  transform: scale(1.05);
+}
+
+/* Adjust spacing between buttons */
+.row > .col-auto {
+  margin-left: 10px;
+  margin-right: 10px;
+}
